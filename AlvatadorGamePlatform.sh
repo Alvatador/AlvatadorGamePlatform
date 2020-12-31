@@ -70,6 +70,7 @@ if [[ $n = "2" ]] ; then
      bash hesapmakinesi.sh
      cd ..
      sleep 5
+     clear
      bash AlvatadorGamePlatform.sh
      fi
 
