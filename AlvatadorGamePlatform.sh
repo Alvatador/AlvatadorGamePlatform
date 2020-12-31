@@ -49,7 +49,8 @@ echo -e "[3] Sayı Tahmin                  [4] Taş Kağıt Makas"
 echo -e "[5] TicTacToe"
 echo ""
 echo -e "$red---------------Game Platform------------------"
-echo -n "$blueİstediğiniz Oyunun Yanında Yazan Sayıyı Yazınız!  :"
+echo -e "$blue"
+echo -n "stediğiniz Oyunun Yanında Yazan Sayıyı Yazınız!  :"
     read n
 
 if [[ $n = "1" ]] ; then
