@@ -50,7 +50,7 @@ echo -e "[5] TicTacToe"
 echo ""
 echo -e "$red---------------Game Platform------------------"
 echo -e "$blue"
-echo -n "stediğiniz Oyunun Yanında Yazan Sayıyı Yazınız!  :"
+echo -n "istediğiniz Oyunun Yanında Yazan Sayıyı Yazınız!  :"
     read n
 
 if [[ $n = "1" ]] ; then
