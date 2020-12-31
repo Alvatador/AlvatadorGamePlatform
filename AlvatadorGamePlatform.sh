@@ -38,24 +38,18 @@ spinlong ()
     echo -e "[${green}OK${tp}]"
 }
 
-    checklolcat=$(lolcat -v | awk '{print $1}')
-    if [[ $checklolcat = "" ]] ; then
-        echo "Lolcat Kuruluyor!"
-        gem install lolcat &> /dev/null
-        spinlong
-    fi
 
 
 cat banner/banner1 |lolcat
 echo ""
-echo -e " ---------------Game Platform------------------" |lolcat
+echo -e "$red---------------Game Platform------------------" 
+echo "$yellow"
+echo -e "[1] Atm Oyunu                    [2] Hesap Makinesi" 
+echo -e "[3] Sayı Tahmin                  [4] Taş Kağıt Makas" 
+echo -e "[5] TicTacToe"
 echo ""
-echo -e "[1] Atm Oyunu                    [2] Hesap Makinesi" |lolcat
-echo -e "[3] Sayı Tahmin                  [4] Taş Kağıt Makas" |lolcat
-echo -e "[5] TicTacToe" |lolcat
-echo ""
-echo -e " ---------------Game Platform------------------" |lolcat
-echo -n " İstediğiniz Oyunun Yanında Yazan Sayıyı Yazınız! :" | lolcat 
+echo -e "$red---------------Game Platform------------------"
+echo -n "$blueİstediğiniz Oyunun Yanında Yazan Sayıyı Yazınız!  :"
     read n
 
 if [[ $n = "1" ]] ; then
