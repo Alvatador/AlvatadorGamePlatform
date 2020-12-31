@@ -67,7 +67,7 @@ if [[ $n = "2" ]] ; then
      echo -e "Hesap Makinesi Başlatılıyor"
      spinlong
      cd game/
-     python3 hesapmakinesi.py
+     bash hesapmakinesi.sh
      cd ..
      sleep 5
      bash AlvatadorGamePlatform.sh
