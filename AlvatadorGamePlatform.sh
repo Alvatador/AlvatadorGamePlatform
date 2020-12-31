@@ -43,7 +43,7 @@ spinlong ()
 cat banner/banner1 |lolcat
 echo ""
 echo -e "$red---------------Game Platform------------------" 
-echo "$yellow"
+echo -e "$yellow"
 echo -e "[1] Atm Oyunu                    [2] Hesap Makinesi" 
 echo -e "[3] Sayı Tahmin                  [4] Taş Kağıt Makas" 
 echo -e "[5] TicTacToe"
